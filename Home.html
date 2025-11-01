@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Kelas 01SIFP004</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #a8c0ff, #fbc2eb);
+      color: #fff;
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    nav {
+      width: 100%;
+      background: rgba(255, 255, 255, 0.15);
+      backdrop-filter: blur(10px);
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      position: sticky;
+      top: 0;
+      display: flex;
+      justify-content: center;
+      padding: 15px 0;
+      z-index: 10;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #222;
+      background: rgba(255,255,255,0.3);
+      padding: 5px 10px;
+      border-radius: 8px;
+    }
+
+    h1 {
+      padding: 40px 15px 20px;
+      font-size: 2.5em;
+      text-shadow: 2px 2px 12px rgba(0,0,0,0.3);
+      animation: fadeInDown 1s ease;
+    }
+
+    p {
+      font-size: 1.2em;
+      max-width: 800px;
+      line-height: 1.6em;
+      text-shadow: 1px 1px 8px rgba(0,0,0,0.2);
+      animation: fadeInUp 1.5s ease;
+      padding: 0 15px;
+    }
+
+    @keyframes fadeInDown { from { opacity: 0; transform: translateY(-20px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes fadeInUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="dimdim.html">Daftar</a>
+    <a href="sifp004.html">Home</a>
+    <a href="galeri.html">Galeri</a>
+    <a href="tentang.html">Tentang</a>
+  </nav>
+
+  <h1>Selamat Datang di Kelas 01SIFP004</h1>
+  <p>Ini adalah halaman Home kelas kita, tempat untuk melihat info umum, update kegiatan, dan berita terbaru dari kelas. Kamu bisa klik navigasi di atas untuk melihat daftar mahasiswa, galeri foto, atau info tentang kelas.</p>
+</body>
+</html>
